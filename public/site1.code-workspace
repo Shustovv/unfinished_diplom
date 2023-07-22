@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "site1",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"vcpkg.target.useStaticLib": true,
+		"vcpkg.target.defaultTriplet": "-static",
+		"cmake.configureArgs": [
+			"-DVCPKG_TARGET_TRIPLET=-static",
+			"-DVCPKG_MANIFEST_MODE=OFF",
+			"-DVCPKG_PREFER_SYSTEM_LIBS=ON"
+		],
+		"vcpkg.target.useManifest": false,
+		"vcpkg.target.preferSystemLibs": true
+	}
+}

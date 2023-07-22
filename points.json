@@ -1,0 +1,30 @@
+{
+  "beamFixing": "both",
+    "beamType": "plos",
+    "force": -10,
+    "height": 5,
+    "loadAreaX1": 4,
+    "loadAreaX2": 8,
+    "nodes":[
+    {"x": 0, "y": 0},
+    {"x": 4, "y": 0},
+    {"x": 8, "y": 0},
+    {"x": 12, "y": 0},
+    {"x": 0, "y": 2.5},
+    {"x": 4, "y": 2.5},
+    {"x": 8, "y": 2.5},
+    {"x": 12, "y": 2.5},
+    {"x": 0, "y": 5},
+    {"x": 4, "y": 5},
+    {"x": 8, "y": 5},
+    {"x": 12, "y": 5}
+    ],
+    "poisson": 0.34,
+    "ung": 70,
+    "width": 12,
+    "xDivisions": 3,
+    "yDivisions": 2
+  }
+
+
+  
